@@ -41,6 +41,8 @@
 		04B4B3D02DB78DA600E4ADC1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4B3CF2DB78DA600E4ADC1 /* LoadingView.swift */; };
 		04B4B3D22DB78DDF00E4ADC1 /* ClaimsContentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4B3D12DB78DDF00E4ADC1 /* ClaimsContentListView.swift */; };
 		04B4B3D42DB78E3200E4ADC1 /* ClaimRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4B3D32DB78E3200E4ADC1 /* ClaimRow.swift */; };
+		04B4B3D72DB7A5F900E4ADC1 /* ClaimListView.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 04B4B3D62DB7A5F900E4ADC1 /* ClaimListView.pdf */; };
+		04B4B3D92DB7A66E00E4ADC1 /* ClaimDetailView.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 04B4B3D82DB7A66E00E4ADC1 /* ClaimDetailView.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +98,8 @@
 		04B4B3CF2DB78DA600E4ADC1 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		04B4B3D12DB78DDF00E4ADC1 /* ClaimsContentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimsContentListView.swift; sourceTree = "<group>"; };
 		04B4B3D32DB78E3200E4ADC1 /* ClaimRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimRow.swift; sourceTree = "<group>"; };
+		04B4B3D62DB7A5F900E4ADC1 /* ClaimListView.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ClaimListView.pdf; sourceTree = "<group>"; };
+		04B4B3D82DB7A66E00E4ADC1 /* ClaimDetailView.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ClaimDetailView.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,7 @@
 		04B4B3672DB7514E00E4ADC1 /* mobile-app-test-project */ = {
 			isa = PBXGroup;
 			children = (
+				04B4B3D52DB7A4D500E4ADC1 /* Screenshots */,
 				04B4B3C02DB7803300E4ADC1 /* Views */,
 				04B4B3BB2DB77F4E00E4ADC1 /* Routers */,
 				04B4B3B62DB77D0A00E4ADC1 /* Presenters */,
@@ -278,6 +283,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		04B4B3D52DB7A4D500E4ADC1 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				04B4B3D82DB7A66E00E4ADC1 /* ClaimDetailView.pdf */,
+				04B4B3D62DB7A5F900E4ADC1 /* ClaimListView.pdf */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -389,8 +403,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B4B3D72DB7A5F900E4ADC1 /* ClaimListView.pdf in Resources */,
 				04B4B3702DB7515100E4ADC1 /* Preview Assets.xcassets in Resources */,
 				04B4B36D2DB7515100E4ADC1 /* Assets.xcassets in Resources */,
+				04B4B3D92DB7A66E00E4ADC1 /* ClaimDetailView.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
