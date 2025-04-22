@@ -2,7 +2,7 @@
 //  mobile_app_test_projectUITests.swift
 //  mobile-app-test-projectUITests
 //
-//  Created by mac on 22/4/25.
+//  Created by Aji Prakosa on 22/4/25.
 //
 
 import XCTest
