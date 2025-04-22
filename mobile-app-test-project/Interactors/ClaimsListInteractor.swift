@@ -18,3 +18,4 @@ class ClaimsListInteractor: ClaimsListInteractorInputProtocol {
         return try await service.fetchClaims()
     }
 }
+

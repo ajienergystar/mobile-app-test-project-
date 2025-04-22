@@ -46,3 +46,17 @@ class ClaimService: ClaimServiceProtocol {
         return try await requestPerformer.performRequest(baseURL)
     }
 }
+
+extension Claim: Identifiable {
+    public var id: Int { claimId }
+}
+
+extension Claim: Hashable {
+    static func == (lhs: Claim, rhs: Claim) -> Bool {
+        lhs.claimId == rhs.claimId
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(claimId)
+    }
+}
