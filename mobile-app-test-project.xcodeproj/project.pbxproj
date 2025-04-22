@@ -28,6 +28,8 @@
 		04B4B3B12DB7769900E4ADC1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 04B4B3B02DB7769900E4ADC1 /* Alamofire */; };
 		04B4B3B32DB7769900E4ADC1 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 04B4B3B22DB7769900E4ADC1 /* AlamofireDynamic */; };
 		04B4B3B52DB7783800E4ADC1 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4B3B42DB7783800E4ADC1 /* NetworkError.swift */; };
+		04B4B3B82DB77D2E00E4ADC1 /* ClaimDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4B3B72DB77D2E00E4ADC1 /* ClaimDetailPresenter.swift */; };
+		04B4B3BA2DB77E6A00E4ADC1 /* ClaimsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4B3B92DB77E6A00E4ADC1 /* ClaimsListPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		04B4B3AA2DB775EC00E4ADC1 /* ClaimsListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimsListInteractor.swift; sourceTree = "<group>"; };
 		04B4B3AD2DB7765B00E4ADC1 /* ClaimService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimService.swift; sourceTree = "<group>"; };
 		04B4B3B42DB7783800E4ADC1 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		04B4B3B72DB77D2E00E4ADC1 /* ClaimDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimDetailPresenter.swift; sourceTree = "<group>"; };
+		04B4B3B92DB77E6A00E4ADC1 /* ClaimsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimsListPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 		04B4B3672DB7514E00E4ADC1 /* mobile-app-test-project */ = {
 			isa = PBXGroup;
 			children = (
+				04B4B3B62DB77D0A00E4ADC1 /* Presenters */,
 				04B4B3AC2DB7764100E4ADC1 /* Services */,
 				04B4B3A72DB770E000E4ADC1 /* Interactors */,
 				04B4B3A22DB76EB800E4ADC1 /* Models */,
@@ -213,6 +218,15 @@
 				04B4B3B42DB7783800E4ADC1 /* NetworkError.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		04B4B3B62DB77D0A00E4ADC1 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				04B4B3B72DB77D2E00E4ADC1 /* ClaimDetailPresenter.swift */,
+				04B4B3B92DB77E6A00E4ADC1 /* ClaimsListPresenter.swift */,
+			);
+			path = Presenters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,10 +367,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B4B3A62DB76F2600E4ADC1 /* ClaimsListContracts.swift in Sources */,
+				04B4B3BA2DB77E6A00E4ADC1 /* ClaimsListPresenter.swift in Sources */,
 				04B4B3B52DB7783800E4ADC1 /* NetworkError.swift in Sources */,
 				04B4B39E2DB7597500E4ADC1 /* View+Border.swift in Sources */,
 				04B4B3A42DB76ED500E4ADC1 /* Claim.swift in Sources */,
 				04B4B3722DB7515100E4ADC1 /* Persistence.swift in Sources */,
+				04B4B3B82DB77D2E00E4ADC1 /* ClaimDetailPresenter.swift in Sources */,
 				04B4B3752DB7515100E4ADC1 /* mobile_app_test_project.xcdatamodeld in Sources */,
 				04B4B36B2DB7514E00E4ADC1 /* ContentView.swift in Sources */,
 				04B4B3692DB7514E00E4ADC1 /* mobile_app_test_projectApp.swift in Sources */,
